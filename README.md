@@ -26,6 +26,4 @@ Fingerings are computed from the instrument's harmonic series using concert pitc
 - Trombone: first-choice positions only, no F-attachment or alternates.
 - Horn: single F only.
 
-`annotate.qml` is the earlier note-name prototype, based on the MuseScore note-names plugin.
-
 GPL-3.0; see `LICENSE`.

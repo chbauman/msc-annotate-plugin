@@ -5,7 +5,7 @@ import MuseScore 3.0
 import "fingerings.js" as Brass
 
 MuseScore {
-    version: "1.0"
+    version: "1.0.0"
     title: "Brass Fingering"
     description: "Annotate notes with valve fingerings or trombone slide positions"
     categoryCode: "composing-arranging-tools"

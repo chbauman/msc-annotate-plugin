@@ -26,4 +26,13 @@ Fingerings are computed from the instrument's harmonic series using concert pitc
 - Trombone: first-choice positions only, no F-attachment or alternates.
 - Horn: single F only.
 
+## Releasing
+
+Versions follow semver, tagged `vX.Y.Z`.
+
+1. Bump `version` in `BrassFingering/BrassFingering.qml`, commit and push.
+2. Tag and push: `git tag vX.Y.Z && git push origin vX.Y.Z`.
+3. Zip the `BrassFingering` folder and publish it:
+   `gh release create vX.Y.Z BrassFingering-vX.Y.Z.zip --title vX.Y.Z --notes "..."`
+
 GPL-3.0; see `LICENSE`.
